@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap');
+
+/*custom property
+Very Dark Blue: hsl(243, 87%, 12%)
+Desaturated Blue: hsl(238, 22%, 44%)
+
+blue: hsl(243, 87%, 12%);
+- Light Grayish Blue: hsl(240, 75%, 98%)
+- Light Gray: hsl(0, 0%, 75%)
+
+Globally styling
+
+1. backgrounder color and color to sections
+2. styling anchors link <a>
+*/
+
+/* Global style
+------------------------------*/
+
+body {
+	color: hsl(243, 87%, 12%);
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: rgb(61, 160, 142);
+}
+a:hover {
+	text-decoration: none;
+}
+
+/* Header style
+----------------------------------*/
+.hero a.btn,
+.section-2 a.btn {
+	background-color: rgb(48, 101, 248);
+	text-decoration: none;
+	color: #fff;
+	padding: 12px 20px;
+}
+
+.hero a.btn:hover,
+.section-2 a.btn:hover {
+	background-color: hsl(0, 0%, 75%);
+	padding: 12px 20px;
+}
+
+/* section-1 style
+----------------------------------*/
+.section-1 {
+	background-color: hsl(240, 75%, 98%);
+}
+/* section-2 style
+----------------------------------*/
+.section-2 {
+	background-color: hsl(238, 22%, 44%);
+}
+/* footer style
+----------------------------------*/
+footer {
+	background-color: hsl(243, 87%, 12%);
+	color: #fff;
+}
